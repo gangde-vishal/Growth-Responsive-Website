@@ -4,9 +4,216 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Growth App</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
   </head>
   <body>
+    <main>
+      <!-- HEADER SECTION -->
+      <header>
+        <nav class="navbar">
+          <div class="container">
+            <div class="logo">
+              <a href="">
+                <img src="./images/logo.png" alt="logo" />
+              </a>
+            </div>
+            <div class="main-menu">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">Blog</a></li>
+                <li><a href="index.html">Contact</a></li>
+                <li>
+                  <a href="#" class="btn btn-primary">
+                    <i class="fas fa-user"></i> Log In
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- HERO SECTION -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="hero-heading text-xxl">
+              A powerful solution to grow your startup. Fast!
+            </h1>
+            <p class="hero-subheading">
+              Organize, collaborate and track progress seamlessly with our
+              one-step-shop startup growth tool.
+            </p>
+          </div>
+          <div class="hero-buttons">
+            <a href="#" class="btn btn-primary">Get Started</a>
+            <a href="#" class="btn">
+              <i class="fa fa-laptop" aria-hidden="true"></i>
+              Book a Demo</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- VIDEO SECTION -->
+      <section class="video bg-dark">
+        <div class="container-sm">
+          <h2 class="video-heading text-lg text-center">
+            See how it works and get started in less than 2 minutes
+          </h2>
+          <div class="video-content">
+            <a href="#">
+              <img
+                src="./images/video-preview.png"
+                alt="video-preview"
+                class="video-preview"
+              />
+            </a>
+            <a href="#" class="btn btn-primary">Get Started</a>
+          </div>
+        </div>
+      </section>
+      <!-- TESTIMONIALS SECTION -->
+      <section class="testimonials testimonial-bg">
+        <div class="container">
+          <h3 class="testimonial-heading text-xl">
+            Don't just take our word for it, see the success stories from
+            businesses just like yours.
+          </h3>
+          <div class="testimonial-grid">
+            <div class="card">
+              <p>
+                “Our business has seen a significant increase in productivity
+                since we started using the Growth app.”
+              </p>
+              <p>Katherine Smith</p>
+              <p>Capodopera</p>
+            </div>
+            <div class="card">
+              <p>
+                “The dashboards and reporting feature has provided valuable
+                insights into our performance and helped us make data-driven
+                decisions. It's a game changer for us.”
+              </p>
+              <p>David Wilson</p>
+              <p>Slide</p>
+            </div>
+            <div class="card">
+              <p>
+                “As a small business owner, it's important to have a tool that
+                can help me keep track of everything. The Growth app has been a
+                lifesaver for me, allowing me to manage my contacts, schedule
+                appointments, and track progress all in one place..”
+              </p>
+              <p>Jonathan Lee</p>
+              <p>Red Bolt</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- PRICING SECTION -->
+      <section class="pricing bg-dark">
+        <div class="container-sm">
+          <h3 class="pricing-heading text-xl text-center">Pricing</h3>
+          <p class="pricing-subheading text-md text-center">
+            Start free and scale while you grow. No hidden fees. Unlimited users
+            for free.
+          </p>
+          <div class="pricing-grid">
+            <!-- pricing card 1 -->
+            <div class="pricing-card">
+              <h5 class="pricing-card-heading text-lg">Simple</h5>
+              <p class="pricing-card-subheading">
+                Keep track of your contacts, gain valuable insights, analyse
+                live data and performance metrics.
+              </p>
+              <div class="pricing-card-free-type">
+                <h5 class="type-heading">
+                  Free <span>* No credit card required</span>
+                </h5>
+              </div>
+              <div class="pricing-card-features">
+                <ul>
+                  <li>
+                    <i class="fa fa-check" aria-hidden="true"></i> Real-time
+                    monitoring
+                  </li>
+                  <li>
+                    <i class="fa fa-check" aria-hidden="true"></i> Track key
+                    performance indicators
+                  </li>
+                  <li>
+                    <i class="fa fa-check" aria-hidden="true"></i> Schedule
+                    appointments
+                  </li>
+                  <li>
+                    <i class="fa fa-check" aria-hidden="true"></i> Organize,
+                    delegate and keep track of tasks
+                  </li>
+                </ul>
+              </div>
+              <div class="pricing-card-btn">
+                <a href="#" class="btn btn-primary">Get Started</a>
+              </div>
+            </div>
+            <!-- pricing card 2 -->
+            <div class="pricing-card pricing-card-bg card-2">
+              <h5 class="pricing-card-heading text-lg">Premium</h5>
+              <p class="pricing-card-subheading">
+                Keep track of your contacts, gain valuable insights, analyse
+                live data and performance metrics.
+              </p>
+              <div class="pricing-card-free-type">
+                <h5 class="type-heading text-md">$49 <span>/month</span></h5>
+              </div>
+              <div class="pricing-card-features">
+                <p>Everything from the free plan plus:</p>
+                <ul>
+                  <li class="paid-features">
+                    <i class="fa fa-check" aria-hidden="true"></i> Data-driven
+                    decisions
+                  </li>
+                  <li class="paid-features">
+                    <i class="fa fa-check" aria-hidden="true"></i> Data
+                    visualisation
+                  </li>
+                  <li class="paid-features">
+                    <i class="fa fa-check" aria-hidden="true"></i> Schedule
+                    appointments
+                  </li>
+                  <li class="paid-features">
+                    <i class="fa fa-check" aria-hidden="true"></i> Store and
+                    organise contact information
+                  </li>
+                  <li class="paid-features">
+                    <i class="fa fa-check" aria-hidden="true"></i>Teal-time
+                    communication tools for messaging and video conferencing
+                  </li>
+                </ul>
+              </div>
+              <div class="pricing-card-btn">
+                <a href="#" class="btn btn-primary">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <script src="./javascript/main.js"></script>
   </body>
 </html>
